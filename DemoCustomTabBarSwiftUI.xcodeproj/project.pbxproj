@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D791E4392E12615300C9464A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D791E4332E12615300C9464A /* Preview Assets.xcassets */; };
+		D791E43A2E12615300C9464A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D791E4352E12615300C9464A /* Assets.xcassets */; };
+		D791E43B2E12615300C9464A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E4362E12615300C9464A /* ContentView.swift */; };
+		D791E43C2E12615300C9464A /* DemoCustomTabBarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E4372E12615300C9464A /* DemoCustomTabBarSwiftUIApp.swift */; };
+		D791E43F2E12615E00C9464A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E43E2E12615E00C9464A /* Constants.swift */; };
+		D791E4442E12619C00C9464A /* CustomTabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E4432E12619C00C9464A /* CustomTabBarShape.swift */; };
+		D791E4472E1261DA00C9464A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E4462E1261DA00C9464A /* CalendarView.swift */; };
+		D791E4492E1261F300C9464A /* CreateMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E4482E1261F300C9464A /* CreateMatchView.swift */; };
+		D791E44B2E12620300C9464A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E44A2E12620300C9464A /* HomeView.swift */; };
+		D791E44D2E12621000C9464A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E44C2E12621000C9464A /* NotificationView.swift */; };
+		D791E44F2E12621D00C9464A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D791E44E2E12621D00C9464A /* SettingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D791E4222E12601D00C9464A /* DemoCustomTabBarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCustomTabBarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D791E4332E12615300C9464A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D791E4352E12615300C9464A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D791E4362E12615300C9464A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D791E4372E12615300C9464A /* DemoCustomTabBarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCustomTabBarSwiftUIApp.swift; sourceTree = "<group>"; };
+		D791E43E2E12615E00C9464A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D791E4432E12619C00C9464A /* CustomTabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarShape.swift; sourceTree = "<group>"; };
+		D791E4462E1261DA00C9464A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D791E4482E1261F300C9464A /* CreateMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMatchView.swift; sourceTree = "<group>"; };
+		D791E44A2E12620300C9464A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D791E44C2E12621000C9464A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		D791E44E2E12621D00C9464A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D791E4242E12601D00C9464A /* DemoCustomTabBarSwiftUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DemoCustomTabBarSwiftUI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D791E41F2E12601D00C9464A /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		D791E4192E12601D00C9464A = {
 			isa = PBXGroup;
 			children = (
-				D791E4242E12601D00C9464A /* DemoCustomTabBarSwiftUI */,
+				D791E4382E12615300C9464A /* DemoCustomTabBarSwiftUI */,
 				D791E4232E12601D00C9464A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,72 @@
 				D791E4222E12601D00C9464A /* DemoCustomTabBarSwiftUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D791E4342E12615300C9464A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4332E12615300C9464A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D791E4382E12615300C9464A /* DemoCustomTabBarSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4412E12617500C9464A /* Main */,
+				D791E4402E12616A00C9464A /* ContentView */,
+				D791E4452E1261B800C9464A /* Screens */,
+				D791E4422E12618A00C9464A /* CustomViews */,
+				D791E43D2E12615600C9464A /* Constants */,
+				D791E4342E12615300C9464A /* Preview Content */,
+				D791E4352E12615300C9464A /* Assets.xcassets */,
+			);
+			path = DemoCustomTabBarSwiftUI;
+			sourceTree = "<group>";
+		};
+		D791E43D2E12615600C9464A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D791E43E2E12615E00C9464A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D791E4402E12616A00C9464A /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4362E12615300C9464A /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		D791E4412E12617500C9464A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4372E12615300C9464A /* DemoCustomTabBarSwiftUIApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D791E4422E12618A00C9464A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4432E12619C00C9464A /* CustomTabBarShape.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D791E4452E1261B800C9464A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D791E4462E1261DA00C9464A /* CalendarView.swift */,
+				D791E4482E1261F300C9464A /* CreateMatchView.swift */,
+				D791E44A2E12620300C9464A /* HomeView.swift */,
+				D791E44C2E12621000C9464A /* NotificationView.swift */,
+				D791E44E2E12621D00C9464A /* SettingView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +142,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D791E4242E12601D00C9464A /* DemoCustomTabBarSwiftUI */,
 			);
 			name = DemoCustomTabBarSwiftUI;
 			packageProductDependencies = (
@@ -109,6 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D791E4392E12615300C9464A /* Preview Assets.xcassets in Resources */,
+				D791E43A2E12615300C9464A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D791E4472E1261DA00C9464A /* CalendarView.swift in Sources */,
+				D791E44B2E12620300C9464A /* HomeView.swift in Sources */,
+				D791E43B2E12615300C9464A /* ContentView.swift in Sources */,
+				D791E44F2E12621D00C9464A /* SettingView.swift in Sources */,
+				D791E44D2E12621000C9464A /* NotificationView.swift in Sources */,
+				D791E4492E1261F300C9464A /* CreateMatchView.swift in Sources */,
+				D791E43C2E12615300C9464A /* DemoCustomTabBarSwiftUIApp.swift in Sources */,
+				D791E4442E12619C00C9464A /* CustomTabBarShape.swift in Sources */,
+				D791E43F2E12615E00C9464A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +379,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
